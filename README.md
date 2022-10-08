@@ -1,8 +1,21 @@
 # NetworkManager.NET
-Crossplatform Network Manager
+![preview](./assets/logo.png)
+
+Crossplatform Network Manager for .NET
+
+## Potential Platforms
+☑ Windows
+
+☐ Linux
+
+☐ Android
+
+☐ IOS
+
+☐ Tizen 
 
 
-Current sources:
+## Potential sources:
 
 ### Linux
 https://stackoverflow.com/questions/46909762/c-library-for-receiving-network-interface-up-down-notification-with-interface
