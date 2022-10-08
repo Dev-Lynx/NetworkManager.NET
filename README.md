@@ -3,7 +3,7 @@
 
 Crossplatform Network Manager for .NET
 
-## Potential Platforms
+## Target Platforms
 ☑ Windows
 
 ☐ Linux
@@ -15,7 +15,27 @@ Crossplatform Network Manager for .NET
 ☐ Tizen 
 
 
-## Potential sources:
+## Getting Started
+```csharp
+using DevLynx.NetworkManager.NET;
+
+NetworkManager.Instance.Connected += (s, e) =>
+{
+    Console.WriteLine("Connection detected");
+};
+
+NetworkManager.Instance.Disconnected += (s, e) =>
+{
+    Console.WriteLine("Disconnection detected");
+};
+
+NetworkManager.Instance.Start();
+```
+Samples can be found in the [sample folder](/samples/).
+
+
+
+## Potential Implementation sources:
 
 ### Linux
 https://stackoverflow.com/questions/46909762/c-library-for-receiving-network-interface-up-down-notification-with-interface
